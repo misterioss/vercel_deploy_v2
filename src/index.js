@@ -1,1 +1,3 @@
-console.log('Hello, world! From Index1 file');
+(() => {
+  return "hello world index1 file1"
+})();

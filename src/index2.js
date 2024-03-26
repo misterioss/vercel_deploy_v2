@@ -1,1 +1,4 @@
-console.log('Hello, world! From Index2 file');
+(() => {
+  console.log("hello world index2 file1")
+  return "hello world index2 file2"
+})();
