@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "name": "vercel_deploy_v2",
+  "builds": [
+    {
+      "src": "src/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "src/index2.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "src/index.js"
+    },
+    {
+      "src": "/index2",
+      "dest": "src/index2.js"
+    }
+  ]
+}
